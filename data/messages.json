@@ -1,0 +1,401 @@
+[
+  {
+    "id": "1779982364150",
+    "title": "Asistencia - Onu no recuperada",
+    "category": "A1000",
+    "body": "Reclamo generado por visita técnica\nreferido al reclamo Nº xxxx , por baja y retiro de equipo. \n\nSe informa que el técnico asistió al domicilio, pero no había nadie para atenderlo, por lo que no fue posible recuperar la ONU.",
+    "createdAt": "2026-05-28T15:32:44.151Z",
+    "updatedAt": "2026-05-28T15:33:04.941Z"
+  },
+  {
+    "id": "1779982606861",
+    "title": "Rutina diaria",
+    "category": "Bases",
+    "body": "Chicos, buen día. \n¿nos pueden enviar  la programación del día de hoy?",
+    "createdAt": "2026-05-28T15:36:46.861Z",
+    "updatedAt": "2026-05-28T15:40:46.695Z"
+  },
+  {
+    "id": "1779982656720",
+    "title": "En breve gestionamos",
+    "category": "Bases",
+    "body": "Perfecto, en breve lo gestionamos",
+    "createdAt": "2026-05-28T15:37:36.720Z",
+    "updatedAt": "2026-05-28T15:55:26.744Z"
+  },
+  {
+    "id": "1779982750680",
+    "title": "Generado no asignado",
+    "category": "Bases",
+    "body": "Reclamo xxx generado.\nEn cuanto el ticket figure en el sistema de mapas, procederé a realizar la asignación.",
+    "createdAt": "2026-05-28T15:39:10.680Z"
+  },
+  {
+    "id": "1779982792198",
+    "title": "Reclamo generado para el tecnico por visita",
+    "category": "A1000",
+    "body": "Reclamo generado por visita técnica, referido al reclamo Nº XXX, por baja y retiro de equipo.\n\n Se informa que el técnico asistió al domicilio, pero no había nadie para atenderlo, por lo que no fue posible recuperar la ONU.",
+    "createdAt": "2026-05-28T15:39:52.198Z"
+  },
+  {
+    "id": "1779982819865",
+    "title": "Reclamo Original > Administracion",
+    "category": "A1000",
+    "body": "Reclamo de visita Nº xxx\n\nSe informa que el técnico asistió al domicilio, pero no había nadie para atenderlo, por lo que no fue posible recuperar la ONU.",
+    "createdAt": "2026-05-28T15:40:19.865Z"
+  },
+  {
+    "id": "1779982868228",
+    "title": "No responde",
+    "category": "Bases",
+    "body": "No responde a los llamados. Continuaremos intentando contactarnos.",
+    "createdAt": "2026-05-28T15:41:08.228Z"
+  },
+  {
+    "id": "1779982882498",
+    "title": "Tarea asignada",
+    "category": "Bases",
+    "body": "Listo, Tarea asignada.",
+    "createdAt": "2026-05-28T15:41:22.498Z"
+  },
+  {
+    "id": "1779982897804",
+    "title": "Que estan haciendo",
+    "category": "Bases",
+    "body": "Consulta, ¿necesitan que les ayudemos con alguna gestión?",
+    "createdAt": "2026-05-28T15:41:37.804Z"
+  },
+  {
+    "id": "1779982941632",
+    "title": "Si hay gente",
+    "category": "Bases",
+    "body": "Nos confirma que habrá personas en el domicilio para recibir al personal y permitir la realización de la visita técnica.",
+    "createdAt": "2026-05-28T15:42:21.632Z"
+  },
+  {
+    "id": "1779982987381",
+    "title": "Reclamo por Baja",
+    "category": "WhatsApp",
+    "body": "Buenos días\nTenemos generado el reclamo para el retiro de la ONU por baja del servicio de San Luis A1000. \n\n¿En qué horario podría pasar el personal técnico por el domicilio para realizar el retiro del equipo?\n\nQuedamos atentos a su respuesta para continuar con la gestión.",
+    "createdAt": "2026-05-28T15:43:07.381Z",
+    "updatedAt": "2026-05-28T15:53:04.078Z"
+  },
+  {
+    "id": "1779983022903",
+    "title": "Puedo Pagar",
+    "category": "WhatsApp",
+    "body": "En este caso, el retiro de la ONU debe realizarse igualmente por procedimiento. Luego, deberá comunicarse con el sector de Administración, en el horario de 09:00 a 17:00 hs, para regularizar el estado del servicio. Una vez realizado eso, se podrá coordinar una nueva visita técnica para la reinstalación.\n\nAl comunicarse con el sector, deberá brindar el siguiente número de reclamo: xxx.\n\n¿Nos podría informar en qué horario puede pasar el personal técnico para realizar el retiro del equipo?",
+    "createdAt": "2026-05-28T15:43:42.903Z"
+  },
+  {
+    "id": "1779983101198",
+    "title": "Tienen que entrar a casa?",
+    "category": "WhatsApp",
+    "body": "El ingreso al domicilio dependerá del inconveniente que detecte el personal técnico al momento de la asistencia.",
+    "createdAt": "2026-05-28T15:45:01.198Z"
+  },
+  {
+    "id": "1779983200925",
+    "title": "Reclamo por Mudanza",
+    "category": "WhatsApp",
+    "body": "Buenos días.\n\nTenemos generado el reclamo correspondiente a la mudanza del servicio de San Luis A1000.\n\n¿En qué horario podría asistir el personal técnico para realizar la asistencia técnica? Tenemos como referencia del domicilio las \nsiguientes coordenadas: \n\n-32.506760, -64.989510.\n\nQuedamos atentos a su respuesta para continuar con la gestión.",
+    "createdAt": "2026-05-28T15:46:40.925Z",
+    "updatedAt": "2026-05-28T15:53:10.612Z"
+  },
+  {
+    "id": "1779983826156",
+    "title": "UPS Sin VIN",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informa UPS de \n\nLocalidad: \n\nSin VIN, se estará generando el reclamo correspondiente a Edesal en breve.",
+    "createdAt": "2026-05-28T15:57:06.162Z"
+  },
+  {
+    "id": "1779983871910",
+    "title": "Sitio sin servicio",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informa sin servicio,  se estará indagando.\n\nLocalidad: \nSitio:",
+    "createdAt": "2026-05-28T15:57:51.910Z"
+  },
+  {
+    "id": "1779983892868",
+    "title": "Sitio inestable",
+    "category": "Monitoreo",
+    "body": "Estimados\nse informa sitio Inestable.\n\nLocalidad: \nSitio: \nEquipo:",
+    "createdAt": "2026-05-28T15:58:12.868Z"
+  },
+  {
+    "id": "1779983912535",
+    "title": "Rectificador sin VIN",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informa Rectificador de \n\nLocalidad: \n\nsin VIN, se estará generando el reclamo correspondiente a Edesal en breve.",
+    "createdAt": "2026-05-28T15:58:32.535Z"
+  },
+  {
+    "id": "1779983934526",
+    "title": "Reclamo Edesal generado",
+    "category": "Monitoreo",
+    "body": "Reclamo generado a Edesal\n\nLocalidad: \nSitio: \nMedidor: \nNIS: \nReclamo:",
+    "createdAt": "2026-05-28T15:58:54.526Z"
+  },
+  {
+    "id": "1779983978990",
+    "title": "Intarface Aletada",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informan interfaz alertada",
+    "createdAt": "2026-05-28T15:59:38.991Z"
+  },
+  {
+    "id": "1779984071664",
+    "title": "ATA sin servicio",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informa ATA sin servicio\n\nLocalidad: \nSitio:\n\nSe estará indagando en caso de tener contacto con el sitio.",
+    "createdAt": "2026-05-28T16:01:11.664Z"
+  },
+  {
+    "id": "1779984134973",
+    "title": "Informacion Telefonica",
+    "category": "HelpDesk",
+    "body": "Estimado/a Sr./Sra.\n\nLe informamos que la información solicitada ha sido proporcionada vía telefónica.\n\nPara cualquier consulta o inconveniente adicional, no dude en contactarnos nuevamente. Estaremos a su disposición para brindarle la asistencia necesaria.\n\nSaludos cordiales\nAutopista de la información.\n0266 - 4452000",
+    "createdAt": "2026-05-28T16:02:14.973Z"
+  },
+  {
+    "id": "1779984178197",
+    "title": "Posee reclamo",
+    "category": "HelpDesk",
+    "body": "Estimado/a Sr./Sra.\nLe informamos que procederemos al cierre del presente reclamo, dado que hemos identificado que usted ya posee uno en gestión\n\nNúmero de Reclamo en Gestión: \n\nPara cualquier consulta o inconveniente adicional, no dude en contactarnos nuevamente. Estaremos a su disposición para brindarle la asistencia necesaria.\n\nSaludos cordiales\nAutopista de la información.\n0266 - 4452000",
+    "createdAt": "2026-05-28T16:02:58.197Z"
+  },
+  {
+    "id": "1779984197670",
+    "title": "Apuntar Mejor",
+    "category": "WIFI",
+    "body": "Estimado/a Sr./Sra.\n\nLe informamos que se han realizado ajustes técnicos en la antena a la cual su servicio se encuentra asociado. Tras estas intervenciones, se ha corroborado una mejora en la estabilidad general del servicio.\n\nEn relación con su antena domiciliaria, hemos observado que se encuentra asociada a nuestra red. No obstante, para optimizar la calidad de su conexión y fortalecer el vínculo, le sugerimos realizar una orientación más precisa de su equipo.\n\nLe recordamos que, durante los horarios de mayor demanda, es posible que experimente una disminución en la velocidad y una eventual inestabilidad del servicio, situación inherente a la saturación propia de la capacidad de la antena en dichos períodos.\n\nPara cualquier consulta o inconveniente adicional, no dude en contactarnos nuevamente. Estaremos a su disposición para brindarle la asistencia necesaria.\n\nSaludos cordiales\nAutopista de la información.\n0266 - 4452000 - Opción 2",
+    "createdAt": "2026-05-28T16:03:17.670Z"
+  },
+  {
+    "id": "1779984222218",
+    "title": "Bloquear MAC",
+    "category": "WIFI",
+    "body": "Estimad@, buenos dias:\nLe informamos que se estuvieron realizando ajustes sobre la antena a la que se asocia, corroborando una mejora en la estabilidad del servicio. \n\nAdemás, hemos procedido a bloquear la dirección MAC solicitada, según su requerimiento.\n\n\nRecuerde que en horarios pico puede experimentar lentitud e inestabilidad, propio de la misma saturación de la antena.\n\nCualquier duda o inconveniente, contactarse nuevamente.\nSaludos cordiales.\nContactos Autopista de la información.\n0266 - 4452000 - Opcion 2",
+    "createdAt": "2026-05-28T16:03:42.218Z"
+  },
+  {
+    "id": "1779984241817",
+    "title": "Intervencion Tecnica",
+    "category": "WIFI",
+    "body": "Estimado/a Sr./Sra.\nLe informamos que su inconveniente ha sido resuelto tras la intervención de nuestro equipo técnico. En consecuencia, procederemos al cierre formal de su reclamo.\n\nAgradecemos su comprensión y paciencia durante el proceso.\n\nPara cualquier consulta o inconveniente adicional, no dude en contactarnos nuevamente. Estaremos a su disposición para brindarle la asistencia necesaria.\n\nSaludos cordiales\nAutopista de la información.\n0266 - 4452000 - Opción 2",
+    "createdAt": "2026-05-28T16:04:01.817Z"
+  },
+  {
+    "id": "1779984265980",
+    "title": "Falta de informacion",
+    "category": "WIFI",
+    "body": "Estimad@, buenos días:\n\nLe informamos que se realizaron ajustes sobre la antena a la que se encuentra asociado, verificándose una mejora en la estabilidad del servicio.\nTenga en cuenta que, en horarios pico, puede experimentar lentitud o inestabilidad debido a la saturación propia de la antena.\n\nPara un mejor análisis, es necesario contar con la dirección MAC de su antena. Este dato puede obtenerse con asistencia de soporte telefónico, para lo cual deberá disponer de una PC al momento del contacto.\n\nAnte cualquier duda o inconveniente, puede comunicarse nuevamente.\n\nSaludos cordiales.\nContactos Autopista de la Información\n0266-4452000 – Opción 2",
+    "createdAt": "2026-05-28T16:04:25.980Z"
+  },
+  {
+    "id": "1779984316501",
+    "title": "La persona con la que",
+    "category": "BuzonVoz",
+    "body": "La persona con la que intentas comunicarte no puede recibir tu llamado en este momento.",
+    "createdAt": "2026-05-28T16:05:16.501Z"
+  },
+  {
+    "id": "1779984336347",
+    "title": "Buzon Personal",
+    "category": "BuzonVoz",
+    "body": "Se intenta contactar con el usuario, pero no responde. (Buzón de voz Personal).",
+    "createdAt": "2026-05-28T16:05:36.347Z"
+  },
+  {
+    "id": "1779984348803",
+    "title": "Buzon Movistar",
+    "category": "BuzonVoz",
+    "body": "Se intenta contactar con el usuario, pero no responde. (Buzón de voz Movistar).",
+    "createdAt": "2026-05-28T16:05:48.803Z"
+  },
+  {
+    "id": "1779984358554",
+    "title": "Buzon Claro",
+    "category": "BuzonVoz",
+    "body": "Se intenta contactar con el usuario, pero no responde. (Buzón de voz Claro).",
+    "createdAt": "2026-05-28T16:05:58.554Z"
+  },
+  {
+    "id": "1779984371696",
+    "title": "Buzon Sin",
+    "category": "BuzonVoz",
+    "body": "Se intenta contactar con el usuario, pero no responde. (Buzón de voz).",
+    "createdAt": "2026-05-28T16:06:11.696Z"
+  },
+  {
+    "id": "1779984431092",
+    "title": "AdminOnu",
+    "category": "Password",
+    "body": "user: \nAdminGPON\n\npw: \npwd@ONTL2",
+    "createdAt": "2026-05-28T16:07:11.092Z"
+  },
+  {
+    "id": "1779984470673",
+    "title": "FortiClient",
+    "category": "Password",
+    "body": "server: 201.222.59.138\nport: 8888\n\nusuario: guardias-call\npassword:SM7snf9i49\n\nxPX1Z,ZZ_b8d,Cm1",
+    "createdAt": "2026-05-28T16:07:50.673Z"
+  },
+  {
+    "id": "1779984487392",
+    "title": "Zoiper",
+    "category": "Password",
+    "body": "192.168.64.200@2918\nRR2O0juRraW2SAet\n192.168.64.200\n\nD?s^z*,?ysZ\\c{DXL^V^}x(9<",
+    "createdAt": "2026-05-28T16:08:07.392Z"
+  },
+  {
+    "id": "1779984554898",
+    "title": "Buen dia",
+    "category": "Stock",
+    "body": "Buenos dias\nPerfecto, en breve lo gestionamos",
+    "createdAt": "2026-05-28T16:09:14.898Z"
+  },
+  {
+    "id": "1779985188270",
+    "title": "Internet inestable",
+    "category": "Sur in",
+    "body": "El sector nos ha informado que el servicio de internet ha sido inestable en los últimos días, experimentando interrupciones ocasionales. \n\nPor lo tanto, solicitan asistencia técnica\n\nHorario:",
+    "createdAt": "2026-05-28T16:19:48.270Z"
+  },
+  {
+    "id": "1779985232099",
+    "title": "Sin Internet y Telefonia",
+    "category": "Sur in",
+    "body": "Se comunica desde el sitio mencionado anteriormente que, actualmente, no cuentan con servicio de internet ni telefonia. \n\nPor lo tanto, se solicita una pronta resolución a este problema para poder restablecer estos servicios lo antes posible.\n\nHorario:",
+    "createdAt": "2026-05-28T16:20:32.099Z"
+  },
+  {
+    "id": "1779985263344",
+    "title": "Sin internet",
+    "category": "Sur in",
+    "body": "Se comunica desde el sitio mencionado que, actualmente, se encuentra sin servicio de internet. Se solicita una pronta resolución a este problema para restablecer el servicio lo antes posible.\n\nCabe destacar que el servicio de telefonía se encuentra funcionando con normalidad.\n\nHorario:",
+    "createdAt": "2026-05-28T16:21:03.344Z"
+  },
+  {
+    "id": "1779985288254",
+    "title": "Sin Telefonia",
+    "category": "Sur in",
+    "body": "Se comunica desde el sitio mencionado que el número interno xxxx se encuentra actualmente sin servicio. Sin embargo, se informa que el servicio de internet se encuentra funcionando con normalidad.\n\nSe solicita la pronta atención a este problema para restablecer el servicio del número interno mencionado lo antes posible.\n\nHorario:",
+    "createdAt": "2026-05-28T16:21:28.254Z"
+  },
+  {
+    "id": "1779985331936",
+    "title": "Telefonia NO - Internet inestable",
+    "category": "Sur in",
+    "body": "Se comunican desde el sitio mencionado anteriormente informando que actualmente no cuentan con servicio de telefonía. Asimismo, el servicio de internet ha presentado inestabilidad en los últimos días, registrando cortes intermitentes.\n\nPor tal motivo, solicitan una pronta resolución a fin de restablecer ambos servicios a la mayor brevedad posible.\n\nHorario:",
+    "createdAt": "2026-05-28T16:22:11.936Z"
+  },
+  {
+    "id": "1779985363754",
+    "title": "Cliente: Servicio inestable",
+    "category": "A1000",
+    "body": "El cliente informa que el servicio de internet ha presentado inestabilidad en ambas frecuencias durante los últimos días, experimentando interrupciones ocasionales, por lo que solicita asistencia técnica.\n\nHorario:",
+    "createdAt": "2026-05-28T16:22:43.754Z"
+  },
+  {
+    "id": "1780063580348",
+    "title": "N reclamo instalacion",
+    "category": "Stock",
+    "body": "Consulta, \n¿tendrás el número de reclamo por el cual se solicita la instalación para poder vincularlo al nuevo ticket?",
+    "createdAt": "2026-05-29T14:06:20.349Z",
+    "updatedAt": "2026-05-29T15:46:08.372Z"
+  },
+  {
+    "id": "1780069586759",
+    "title": "N reclamo Generix",
+    "category": "Stock",
+    "body": "Consulta, \n¿tendrás el número de reclamo para poder vincularlo al nuevo ticket?",
+    "createdAt": "2026-05-29T15:46:26.761Z"
+  },
+  {
+    "id": "1780328416547",
+    "title": "Cierre Conversacion",
+    "category": "WhatsApp",
+    "body": "Procedemos a dar por finalizada esta conversación. En caso de ser necesario, nos volveremos a contactar con usted.\n\nTenga en cuenta que esta línea se encuentra habilitada únicamente para comunicaciones eventuales.\n\nSi desea contactarnos, puede:\n📞 Llamar al 2664 452000\n\n🌐 Ingresar su reclamo desde:\nhttps://reclamosaui.sanluis.gob.ar/Reclamo\n\n📧 También puede escribirnos a:\n[mesadeayudaaui@ulp.edu.ar](mailto:mesadeayudaaui@ulp.edu.ar)\n\nSaludos cordiales.",
+    "createdAt": "2026-06-01T15:40:16.548Z"
+  },
+  {
+    "id": "1780501387067",
+    "title": "Error Enviar Mensaje",
+    "category": "WhatsApp",
+    "body": "No se puede enviar el mensaje porque o el número de teléfono del destinatario no es un número de teléfono de WhatsApp o el destinatario no aceptó las nuevas Condiciones del servicio y Política de privacidad o el destinatario usa una versión antigua de WhatsApp",
+    "createdAt": "2026-06-03T15:43:07.068Z"
+  },
+  {
+    "id": "1780572506779",
+    "title": "N Reclamo Asistencia",
+    "category": "Stock",
+    "body": "¿Tendrás el número de reclamo de la asistencia para poder vincularlo al nuevo ticket?",
+    "createdAt": "2026-06-04T11:28:26.779Z"
+  },
+  {
+    "id": "1780581140558",
+    "title": "No Llamadas Si Whatsapp",
+    "category": "WhatsApp",
+    "body": "No responde a las llamadas telefónicas, pero sí se comunica por WhatsApp. \nVoy a confirmar el horario con el cliente y luego les informo.",
+    "createdAt": "2026-06-04T13:52:20.559Z"
+  },
+  {
+    "id": "1780678052353",
+    "title": "Equipo sin servicio",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe informa el siguiente equipo alertado\n\nLocalidad: \nSitio:\n\nSe estará indagando en caso de tener contacto con el sitio.",
+    "createdAt": "2026-06-05T16:47:32.354Z",
+    "updatedAt": "2026-06-05T16:53:21.394Z"
+  },
+  {
+    "id": "1780825832418",
+    "title": "Inversor sin VIN",
+    "category": "Monitoreo",
+    "body": "Estimados\nSe ha detectado una interrupción en el suministro eléctrico en el inversor.",
+    "createdAt": "2026-06-07T09:50:32.419Z"
+  },
+  {
+    "id": "1780825963050",
+    "title": "Cesan las Alertas",
+    "category": "Monitoreo",
+    "body": "Cesan las alertas mencionadas anteriormente.",
+    "createdAt": "2026-06-07T09:52:43.050Z"
+  },
+  {
+    "id": "1781186397557",
+    "title": "Necesito SN",
+    "category": "Stock",
+    "body": "Para generar el reclamo correspondiente, necesitaría el número de serie (SN) de este equipo.\n\nQuedo atento a la información para poder continuar con la gestión.",
+    "createdAt": "2026-06-11T13:59:57.557Z"
+  },
+  {
+    "id": "1781193024223",
+    "title": "Retiro o intalacion",
+    "category": "Stock",
+    "body": "Con respecto al equipo retirado, quisiera consultar si el área quedó sin equipo o si se instaló uno nuevo en su reemplazo.\n\nEn caso de haberse realizado una nueva instalación, necesitaría los datos del equipo instalado (preferentemente número de serie e imagen correspondiente) para poder generar el reclamo de instalación y vincularlo con el ticket de retiro de la misma área.\n\nQuedo atento a la información para poder continuar con la gestión.",
+    "createdAt": "2026-06-11T15:50:24.226Z"
+  },
+  {
+    "id": "1781610761307",
+    "title": "Proyectos AppScript",
+    "category": "Dev",
+    "body": "- Instalar\nnpm install -g @google/clasp\n\n# Descargar proyecto existente\nclasp clone SCRIPT_ID\n\n# Antes de empezar\nclasp pull\n\n# Programar en VS Code\n\n# Subir cambios\nclasp push\n\n# Abrir Apps Script en navegador\nclasp open",
+    "createdAt": "2026-06-16T11:52:41.308Z"
+  },
+  {
+    "id": "1781708796463",
+    "title": "Reubicacion Equipos",
+    "category": "Stock",
+    "body": "Te consulto, ¿estos equipos provienen de otro sitio donde se encontraban instalados anteriormente?\n\nPorque en caso de ser así, tengo que usar un motivo específico al momento de generar el ticket y registrar correctamente el movimiento de los equipos.\n\nQuedo atento a tu respuesta.",
+    "createdAt": "2026-06-17T15:06:36.464Z"
+  },
+  {
+    "id": "1782057115989",
+    "title": "Sin servicio con vinculo ok",
+    "category": "A1000",
+    "body": "El usuario informa que se encuentra sin servicio. Indica que visualiza las redes inalámbricas disponibles, pero al intentar conectarse recibe un mensaje de error de conexión.\n\nSe realizan verificaciones en la plataforma de A1000, constatando que la situación no se debe a falta de pago. \n\nAsimismo, se verifica que el vínculo óptico presenta un nivel de potencia dentro de los parámetros permitidos, registrando un valor de -22.0 dBm.",
+    "createdAt": "2026-06-21T15:51:55.990Z"
+  }
+]

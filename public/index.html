@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mensajes Predefinidos</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236366f1'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='20' font-family='sans-serif'%3E%F0%9F%92%AC%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <h1>💬 Mensajes Predefinidos</h1>
+        <button id="btnNewMessage" class="btn btn-primary">
+          + Nuevo mensaje
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Barra de búsqueda y filtros -->
+      <section class="filters">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Buscar por título, contenido o perfil..."
+        />
+        <div id="categoryFilters" class="category-filters">
+          <button class="filter-btn active" data-category="all">Todas</button>
+        </div>
+      </section>
+
+      <!-- Lista de mensajes -->
+      <section id="messageList" class="message-list">
+        <p class="empty-state" id="emptyState">
+          No hay mensajes todavía. ¡Crea el primero!
+        </p>
+      </section>
+    </main>
+
+    <!-- Modal de formulario -->
+    <div id="modal" class="modal-overlay hidden">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 id="modalTitle">Nuevo mensaje</h2>
+          <button id="closeModal" class="close-btn">&times;</button>
+        </div>
+        <form id="messageForm" class="message-form">
+          <input type="hidden" id="editId" />
+
+          <div class="form-group">
+            <label for="inputTitle">Título</label>
+            <input
+              type="text"
+              id="inputTitle"
+              placeholder="Ej: Bienvenida al cliente"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="inputCategory">Categoría</label>
+            <input
+              type="text"
+              id="inputCategory"
+              placeholder="Ej: Soporte, Cierre, Seguimiento"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="inputBody">Cuerpo del mensaje</label>
+            <textarea
+              id="inputBody"
+              rows="5"
+              placeholder="Escribe el contenido del mensaje..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="inputProfileName">Nombre de perfil</label>
+            <input
+              type="text"
+              id="inputProfileName"
+              placeholder="Ej: Cristian"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="inputProfileEmail">Email de perfil (opcional)</label>
+            <input
+              type="email"
+              id="inputProfileEmail"
+              placeholder="Ej: usuario@dominio.com"
+            />
+          </div>
+
+          <div class="form-actions">
+            <button type="button" id="cancelBtn" class="btn btn-secondary">
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

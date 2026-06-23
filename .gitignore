@@ -1,0 +1,68 @@
+## =================================
+## Node.js
+## =================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+.next/
+
+## =================================
+## .NET / Visual Studio
+## =================================
+
+bin/
+obj/
+out/
+publish/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+.vs/
+.vscode/
+
+*.db
+*.sqlite
+*.sqlite3
+
+## =================================
+## Logs / runtime
+## =================================
+
+*.log
+logs/
+
+## =================================
+## Secrets / configuración sensible
+## =================================
+
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+*.env
+
+## Connection strings o credenciales
+**/ConnectionStrings*.json
+
+## =================================
+## Windows / sistema
+## =================================
+
+Thumbs.db
+Desktop.ini
+
+## =================================
+## Git / backup
+## =================================
+
+*.orig
+*.rej
