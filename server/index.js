@@ -1,20 +1,78 @@
 const express = require("express");
 const path = require("path");
+const crypto = require("crypto");
 const { createClient } = require("@supabase/supabase-js");
 require("dotenv").config();
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const MESSAGES_TABLE = process.env.SUPABASE_MESSAGES_TABLE || "messages";
+const APP_USERNAME = process.env.APP_USERNAME;
+const APP_PASSWORD = process.env.APP_PASSWORD;
+const REQUIRE_AUTH = process.env.REQUIRE_AUTH !== "false";
 
 app.use(express.json());
+
+function safeCompare(a, b) {
+  const aBuffer = Buffer.from(String(a || ""));
+  const bBuffer = Buffer.from(String(b || ""));
+
+  if (aBuffer.length !== bBuffer.length) return false;
+  return crypto.timingSafeEqual(aBuffer, bBuffer);
+}
+
+function basicAuth(req, res, next) {
+  if (!REQUIRE_AUTH) return next();
+
+  if (!APP_USERNAME || !APP_PASSWORD) {
+    return res.status(500).json({
+      error:
+        "Autenticacion habilitada, pero faltan APP_USERNAME y APP_PASSWORD en variables de entorno.",
+    });
+  }
+
+  const authHeader = req.headers.authorization || "";
+  if (!authHeader.startsWith("Basic ")) {
+    res.setHeader("WWW-Authenticate", 'Basic realm="AppCierreMensajes"');
+    return res.status(401).send("Autenticacion requerida.");
+  }
+
+  const base64 = authHeader.slice(6);
+  let decoded = "";
+
+  try {
+    decoded = Buffer.from(base64, "base64").toString("utf8");
+  } catch {
+    res.setHeader("WWW-Authenticate", 'Basic realm="AppCierreMensajes"');
+    return res.status(401).send("Credenciales invalidas.");
+  }
+
+  const separatorIndex = decoded.indexOf(":");
+  const user = separatorIndex >= 0 ? decoded.slice(0, separatorIndex) : "";
+  const pass = separatorIndex >= 0 ? decoded.slice(separatorIndex + 1) : "";
+
+  if (!safeCompare(user, APP_USERNAME) || !safeCompare(pass, APP_PASSWORD)) {
+    res.setHeader("WWW-Authenticate", 'Basic realm="AppCierreMensajes"');
+    return res.status(401).send("Usuario o password incorrectos.");
+  }
+
+  return next();
+}
+
+app.use(basicAuth);
 app.use(express.static(path.join(__dirname, "..", "public")));
 
 if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
   console.error(
     "Faltan variables de entorno de Supabase. Configura SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY.",
+  );
+}
+
+if (REQUIRE_AUTH && (!APP_USERNAME || !APP_PASSWORD)) {
+  console.error(
+    "Falta configurar APP_USERNAME y APP_PASSWORD para proteger la aplicacion.",
   );
 }
 
